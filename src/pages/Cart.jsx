@@ -1,7 +1,7 @@
 import React from "react";
 import { Footer, Navbar } from "../components";
 import { useSelector, useDispatch } from "react-redux";
-import { addCart, delCart } from "../redux/action";
+import { addToCart, removeFromCart } from "../redux/cartSlice";
 import { Link } from "react-router-dom";
 
 const Cart = () => {
@@ -24,10 +24,10 @@ const Cart = () => {
   };
 
   const addItem = (product) => {
-    dispatch(addCart(product));
+    dispatch(addToCart(product));
   };
   const removeItem = (product) => {
-    dispatch(delCart(product));
+    dispatch(removeFromCart(product));
   };
 
   const ShowCart = () => {

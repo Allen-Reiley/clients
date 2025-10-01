@@ -1,5 +1,7 @@
-import React from 'react'
-import { Footer, Navbar, Products } from "../components"
+import React from "react";
+import Navbar from "../components/Navbar";
+import Products from "../components/Products";
+import Footer from "../components/Footer";
 
 const ProductList = () => {
   return (
