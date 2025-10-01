@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # E-Commerce Website
 
 A Ecommerce Website made with React.js Framework.
@@ -65,3 +66,7 @@ Just raise an issue, we will discuss it.
 If you have any feedback, please reach out to me [here](https://ssahibsingh.github.io/#contact)
 
 
+=======
+# clients
+Folder for demo projects for clients
+>>>>>>> e15d53cf2aaf03ab2d2b6ea63f3c2a04f04b1d9e
