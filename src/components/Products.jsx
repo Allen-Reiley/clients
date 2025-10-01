@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useDispatch } from "react-redux";
-import { addCart } from "../redux/cartSlice";
+import { addToCart } from "../redux/cartSlice";
 
 import Skeleton from "react-loading-skeleton";
 import "react-loading-skeleton/dist/skeleton.css";
@@ -16,8 +16,8 @@ const Products = () => {
 
   const dispatch = useDispatch();
 
-  const addProduct = (product) => {
-    dispatch(addCart(product));
+  const handleAddToCart = (product) => {
+    dispatch(addToCart(product));
   };
 
   useEffect(() => {
@@ -145,7 +145,7 @@ const Products = () => {
                     className="btn btn-dark m-1"
                     onClick={() => {
                       toast.success("Added to cart");
-                      addProduct(product);
+                      handleAddToCart(product);
                     }}
                   >
                     Add to Cart
