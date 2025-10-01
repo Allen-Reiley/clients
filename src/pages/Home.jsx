@@ -1,4 +1,5 @@
-import { Navbar, Body, Products, Footer } from "../components";
+import { Navbar, Body, Footer } from "../components";
+import Products from "../components/Products";
 
 function Home() {
   return (

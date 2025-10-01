@@ -1,16 +1,12 @@
 import React from "react";
-import Navbar from "../components/Navbar";
-import Products from "../components/Products";
-import Footer from "../components/Footer";
+import { Navbar, Products, Footer } from "../components";
 
-const ProductList = () => {
-  return (
-    <>
-      <Navbar />
-      <Products />
-      <Footer />
-    </>
-  )
-}
+const ProductList = () => (
+  <>
+    <Navbar />
+    <Products />
+    <Footer />
+  </>
+);
 
-export default ProductList
+export default ProductList;
