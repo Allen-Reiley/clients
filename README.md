@@ -31,7 +31,7 @@ Clone the project
 Go to the project directory
 
 ```bash
-  cd React_E-Commerce
+  cd clients
 ```
 
 Install dependencies
